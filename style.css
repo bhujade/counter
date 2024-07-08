@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(255, 153, 245);
+    background: linear-gradient(
+        90deg,
+        rgba(255,132,100,1) 0%,
+        rgba(255,105,165,1) 100%
+    );
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    height: 100%;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.card-btn button{
+    border-radius: 5px;
+    color: #262626;
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button#decrement{
+    background-color: #f6e58d;
+}
+
+button#decrement:hover{
+    background-color: #f79f1f;
+    color: #fff;
+}
+
+
+button#reset{
+    background-color: #f3a683;
+}
+
+button#reset:hover{
+    background-color: #ea2027;
+    color: #fff;
+}
+
+
+button#increment{
+    background-color: #c4e538;
+}
+
+button#increment:hover{
+    background-color: #009432;
+    color: #fff;
+}
